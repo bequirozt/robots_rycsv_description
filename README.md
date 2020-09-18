@@ -65,7 +65,7 @@ Con esta configuración se obtienen los siguientes parametros:
 
 ## Robot 2
 
-El robot 1 tiene tres ruedas tipo suecas con los rodillos a 90 grados:
+El robot 2 tiene cuatro ruedas tipo suecas con los rodillos a 90 grados:
 
 <img src="https://render.githubusercontent.com/render/math?math=\gamma=0">
 
