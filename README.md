@@ -75,3 +75,13 @@ La configuración de las ruedas y del sistema de referencia del robot es como se
 
 <img src="./imgs/Esquema_robot_2.png" heigh=200 alt="Esquema_robot_2">
 
+# En caso de errores
+
+Si al tratar de iniciar la simulación se obtiene el error:
+
+> <code> **Could not load controller 'left_wheel_ctrl' because controller type 'velocity_controllers/JointVelocityController' does not exist.** [ERROR] </code>
+
+Por favor revisar que se tenga instalado el paquete ros_control, para realizar la instalación es necesesario ejecutar el comando (Reemplazar $DISTRO$ con la distribución que se tenga de ROS kinetic, melodic o noetic):
+
+> <code> sudo apt-get install ros-$DISTRO$-ros-control ros-$DISTRO$-ros-controllers </code>
+
