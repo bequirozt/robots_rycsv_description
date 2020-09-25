@@ -2,6 +2,23 @@
 
 En este paquete se encuentran los modelos de los robots para realizar los ejercicios de publicadores y subscriptores de ROS de la clase de RyCSV.
 
+
+# En caso de errores
+
+Si al tratar de iniciar la simulación se obtiene el error:
+
+> <code> **Could not load controller 'left_wheel_ctrl' because controller type 'velocity_controllers/JointVelocityController' does not exist.** [ERROR] </code>
+
+Por favor revisar que se tenga instalado el paquete ros_control, para realizar la instalación es necesesario ejecutar el comando (Reemplazar $DISTRO$ con la distribución que se tenga de ROS kinetic, melodic o noetic):
+
+> <code> sudo apt-get install ros-$DISTRO$-ros-control ros-$DISTRO$-ros-controllers </code>
+
+
+## Repositorio de los programas de los modelos
+
+> https://github.com/jmfajardod/models_robots_rycsv_py
+
+
 ## Robot 1
 
 El robot 1 tiene tres ruedas tipo suecas con los rodillos a 90 grados:
@@ -122,14 +139,4 @@ Con esta configuración se obtienen los siguientes parametros:
 <br/>
 
 <img src="./imgs/Esquema_robot_2_sol.png" heigh=200 alt="Modelo_robot_2_sol">
-
-# En caso de errores
-
-Si al tratar de iniciar la simulación se obtiene el error:
-
-> <code> **Could not load controller 'left_wheel_ctrl' because controller type 'velocity_controllers/JointVelocityController' does not exist.** [ERROR] </code>
-
-Por favor revisar que se tenga instalado el paquete ros_control, para realizar la instalación es necesesario ejecutar el comando (Reemplazar $DISTRO$ con la distribución que se tenga de ROS kinetic, melodic o noetic):
-
-> <code> sudo apt-get install ros-$DISTRO$-ros-control ros-$DISTRO$-ros-controllers </code>
 
