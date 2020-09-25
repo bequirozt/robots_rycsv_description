@@ -61,7 +61,7 @@ Con esta configuración se obtienen los siguientes parametros:
 
 <br/>
 
-<img src="./imgs/Esquema_robot_1_sol.png" heigh=200 alt="Modelo_robot_1">
+<img src="./imgs/Esquema_robot_1_sol.png" heigh=200 alt="Modelo_robot_1_sol">
 
 ## Robot 2
 
@@ -74,6 +74,54 @@ Las ruedas estan en las esquinas de un cuadrado de lado <img src="https://render
 La configuración de las ruedas y del sistema de referencia del robot es como se muestra en la imagen inferior:
 
 <img src="./imgs/Esquema_robot_2.png" heigh=200 alt="Esquema_robot_2">
+
+Con esta configuración se obtienen los siguientes parametros:
+
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky"><img src="https://render.githubusercontent.com/render/math?math=Rueda"></th>
+    <th class="tg-0pky"><img src="https://render.githubusercontent.com/render/math?math=l"></th>
+    <th class="tg-0pky"><img src="https://render.githubusercontent.com/render/math?math=\alpha"></th>
+    <th class="tg-0pky"><img src="https://render.githubusercontent.com/render/math?math=\beta"></th>
+    <th class="tg-0pky"><img src="https://render.githubusercontent.com/render/math?math=\gamma"></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky"><img src="https://render.githubusercontent.com/render/math?math=front"></td>
+    <td class="tg-0pky"><img src="https://render.githubusercontent.com/render/math?math=0.5"></td>
+    <td class="tg-0pky"><img src="https://render.githubusercontent.com/render/math?math=\frac{\pi}{4}"></td>
+    <td class="tg-0pky"><img src="https://render.githubusercontent.com/render/math?math=\frac{3\pi}{4}"></td>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal"><img src="https://render.githubusercontent.com/render/math?math=0.0"></span></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><img src="https://render.githubusercontent.com/render/math?math=back"></td>
+    <td class="tg-0pky"><img src="https://render.githubusercontent.com/render/math?math=0.5"></td>
+    <td class="tg-0pky"><img src="https://render.githubusercontent.com/render/math?math=\frac{3\pi}{4}"></td>
+    <td class="tg-0pky"><img src="https://render.githubusercontent.com/render/math?math=\frac{\pi}{4}"></td>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal"><img src="https://render.githubusercontent.com/render/math?math=0.0"></span></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><img src="https://render.githubusercontent.com/render/math?math=left"></td>
+    <td class="tg-0pky"><img src="https://render.githubusercontent.com/render/math?math=0.707"></td>
+    <td class="tg-0pky"><img src="https://render.githubusercontent.com/render/math?math=\frac{\pi}{2}"></td>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal"><img src="https://render.githubusercontent.com/render/math?math=\pi"></span></td>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal"><img src="https://render.githubusercontent.com/render/math?math=0.0"></span></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><img src="https://render.githubusercontent.com/render/math?math=right"></td>
+    <td class="tg-0pky"><img src="https://render.githubusercontent.com/render/math?math=0.0"></td>
+    <td class="tg-0pky"><img src="https://render.githubusercontent.com/render/math?math=0.0"></td>
+    <td class="tg-0pky"><img src="https://render.githubusercontent.com/render/math?math=\frac{\pi}{2}"></td>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal"><img src="https://render.githubusercontent.com/render/math?math=0.0"></span></td>
+  </tr>
+</tbody>
+</table>
+
+<br/>
+
+<img src="./imgs/Esquema_robot_2_sol.png" heigh=200 alt="Modelo_robot_2_sol">
 
 # En caso de errores
 
